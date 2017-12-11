@@ -1,13 +1,13 @@
                             // ZADANIE //
 
-//    Napisz program, który pobierze od u¿ytkownika liczby            //
-//(nie wiêcej ni¿ 1000), a nastêpnie zastosuje na nim filtr           //
-//uœredniaj¹cy - ka¿dy element ci¹gu wyjœciowego ma byæ               //
-//œredni¹ dwóch s¹siaduj¹cych elementów ci¹gu wejœciowego.            //
-//Program ma wyœwietliæ wszystkie elementy ci¹gu wyjœciowego          //
-//oddzielone spacjami, z dok³adnoœci¹ do dwóch miejsc po przecinku.   //
-//Pojawienie siê wartoœci 0 na wejœciu bêdzie oznacza³o zakoñczenie   //
-//ci¹gu. Je¿eli nie wyst¹pi ¿aden wyraz w ci¹gu program ma wypisaæ 0. //
+//    Napisz program, ktÃ³ry pobierze od uÅ¼ytkownika liczby            //
+//(nie wiÄ™cej niÅ¼ 1000), a nastÄ™pnie zastosuje na nim filtr           //
+//uÅ›redniajÄ…cy - kaÅ¼dy element ciÄ…gu wyjÅ›ciowego ma byÄ‡               //
+//Å›redniÄ… dwÃ³ch sÄ…siadujÄ…cych elementÃ³w ciÄ…gu wejÅ›ciowego.            //
+//Program ma wyÅ›wietliÄ‡ wszystkie elementy ciÄ…gu wyjÅ›ciowego          //
+//oddzielone spacjami, z dokÅ‚adnoÅ›ciÄ… do dwÃ³ch miejsc po przecinku.   //
+//Pojawienie siÄ™ wartoÅ›ci 0 na wejÅ›ciu bÄ™dzie oznaczaÅ‚o zakoÅ„czenie   //
+//ciÄ…gu.							      //
 
 
 
