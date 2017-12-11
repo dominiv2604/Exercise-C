@@ -1,9 +1,9 @@
                                 //ZADANIE//
-//Napisz program, który pobierze od u¿ytkownika liczby z zakresu <0 - 10>,             //
-//a nastêpnie wypisze w osobnych liniach, ile razy ka¿da z tych liczb                  //
-//pojawi³a siê na wejœciu. Ka¿da linia ma mieæ nastêpuj¹cy format:                     //
-//liczba - iloœæ wyst¹pieñ. Przed i po myœlniku ma siê pojawiæ dok³adnie jedna spacja. //
-//Pojawienie siê wartoœci -1 na wejœciu bêdzie oznacza³o zakoñczenie ci¹gu.            //
+//Napisz program, ktÃ³ry pobierze od uÅ¼ytkownika liczby z zakresu <0 - 10>,             //
+//a nastÄ™pnie wypisze w osobnych liniach, ile razy kaÅ¼da z tych liczb                  //
+//pojawiÅ‚a siÄ™ na wejÅ›ciu. KaÅ¼da linia ma mieÄ‡ nastÄ™pujÄ…cy format:                     //
+//liczba - iloÅ›Ä‡ wystÄ…pieÅ„. Przed i po myÅ›lniku ma siÄ™ pojawiÄ‡ dokÅ‚adnie jedna spacja. //
+//Pojawienie siÄ™ wartoÅ›ci -1 na wejÅ›ciu bÄ™dzie oznaczaÅ‚o zakoÅ„czenie ciÄ…gu.            //
 
 
 #include <stdio.h>
@@ -25,14 +25,14 @@ int main(void) {
 	puts("Podaj liczby z zakresu <0:10>, wprowadzenie -1 oznacza koniec tworzenia ciagu.");
 
 	while(1) {
-        scanf("%i", &wprowadzona_liczba);
-        if(wprowadzona_liczba == -1) break;
-        else if(wprowadzona_liczba > 10 || wprowadzona_liczba < 0) puts("Blad - podaj inna liczbe");
+       		scanf("%i", &wprowadzona_liczba);
+        	if(wprowadzona_liczba == -1) break;
+        	else if(wprowadzona_liczba > 10 || wprowadzona_liczba < 0) puts("Blad - podaj inna liczbe");
         else {
-			tablica[i] = wprowadzona_liczba;
-			tablica_cyferek[wprowadzona_liczba] = tablica_cyferek[wprowadzona_liczba] + 1;
-			i++;
-		}
+		tablica[i] = wprowadzona_liczba;
+		tablica_cyferek[wprowadzona_liczba] = tablica_cyferek[wprowadzona_liczba] + 1;
+		i++;
+	     }
 	}
 
 	for(i=0 ; i<10 ; i++){
