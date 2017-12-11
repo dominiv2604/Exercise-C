@@ -9,8 +9,6 @@
 //Pojawienie się wartości 0 na wejściu będzie oznaczało zakończenie   //
 //ciągu.							      //
 
-
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -33,7 +31,6 @@ int main(void) {
 		scanf("%i", &wprowadzona_liczba);
 		if(wprowadzona_liczba == 0 || i > 1000) break;
 			else {
-
 				tablica[i] = wprowadzona_liczba;
 				if(i % 2) {
 					if(i == 0) break;
