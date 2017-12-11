@@ -22,19 +22,16 @@ int main(void) {
 	}
 
 	for(i=0 ; i<10 ; i++) {
-
 		srednia = srednia + tablica[i];
 	}
 
 	srednia = srednia/10;
 
 	for(i=0 ; i<10 ; i++) {
-
 		if(tablica[i] > max) max = tablica[i];
 	}
 
 	for(i=0 ; i<10 ; i++) {
-
 		if(tablica[i] < min) min = tablica[i];
 	}
 
@@ -42,5 +39,3 @@ int main(void) {
 	printf("\nWartosc srednia podanych liczb to: %i", srednia);
 	printf("\nWartosc minimalna podanych liczb to: %i", min);
 }
-
-
