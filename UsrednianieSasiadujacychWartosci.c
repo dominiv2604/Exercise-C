@@ -30,24 +30,21 @@ int main(void) {
 	puts("Podaj nie wiecej niz 1000 liczb. 0 konczy tworzenie ciagu");
 
 	while(1) {
+		scanf("%i", &wprowadzona_liczba);
+		if(wprowadzona_liczba == 0 || i > 1000) break;
+			else {
 
-	scanf("%i", &wprowadzona_liczba);
-	if(wprowadzona_liczba == 0 || i > 1000) break;
-
-		else {
-
-			tablica[i] = wprowadzona_liczba;
-			if(i % 2) {
-				if(i == 0) break;
-				tablica_par[x] = tablica[i-1] + tablica[i];
-				x++;
-			}
+				tablica[i] = wprowadzona_liczba;
+				if(i % 2) {
+					if(i == 0) break;
+					tablica_par[x] = tablica[i-1] + tablica[i];
+					x++;
+				}
 			i++;
-		}
+			}
 	}
 
 	for(c=0 ; c < x; c++) {
-
 		tablica_srednich[c] = tablica_par[c] / 2;
 	}
 
